@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+sqlalchemy = "*"
+pymysql = "*"
+python-dotenv = "*"
+inject = "*"
+yoyo-migrations = "*"
+uuid = "*"
+bcrypt = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
